@@ -31,7 +31,7 @@ score_jd_match(jd_text, retrieved_context)
 
 ```bash
 git clone <your-repo-url>
-cd agentic-rag-resume-matcher
+cd Agentic_RAG_Resume_Matcher
 python -m venv venv
 ./venv/Scripts/activate      # Windows
 pip install -r requirements.txt
