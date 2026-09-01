@@ -1,0 +1,28 @@
+Name: Alex
+
+BE Information Technology graduate with hands-on experience in Python, Django,
+Django REST Framework, SQL, and web development. Developed a Job Tracker
+Application using Python, Django, and DRF with features such as adding,
+editing, deleting, and tracking job applications. Used Selenium for testing
+login and CRUD operations.
+
+Technical Skills:
+Python, Django, Django REST Framework, SQL, MySQL, PostgreSQL, HTML, CSS,
+JavaScript, React basics, Selenium, Git, GitHub, REST APIs, NumPy, Pandas,
+Streamlit.
+
+Projects:
+1. Job Tracker Application – Developed a web application using Django and DRF
+   to manage and track job applications based on their status.
+
+2. Expense Tracker Dashboard – Developed a Python-based application to record
+   and analyze expenses using SQLite.
+
+3. Manufacturing Equipment Analysis Dashboard – Built a data analysis and
+   visualization dashboard using Python, Pandas, Streamlit, and the AI4I
+   2020 Predictive Maintenance Dataset.
+
+Education:
+CGPA: 8.29
+Bachelor of Engineering (BE) in Information Technology.
+From Savitribai Phule Pune University.
