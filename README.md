@@ -2,9 +2,6 @@
 
 A command-line agent that scores how well a resume matches a job description — and can explain its reasoning through natural follow-up conversation — by combining Retrieval-Augmented Generation (RAG) with tool-calling agent behavior.
 
-# Architecture
-
-![Architecture diagram](Architecture.png)
 
 ## What makes this "agentic," not just a RAG pipeline
 
@@ -23,6 +20,10 @@ User <--> agent.py (Gemini function-calling loop) <--> tools.py
     |
 search_resume(query)
 score_jd_match(jd_text, retrieved_context)
+
+# Architecture Diagram
+
+![Architecture diagram](Architecture.png)
 
 
 1. **`ingest.py`** — chunks `resume.txt` by section (Summary, Technical Skills, Projects, Education) and stores embeddings in a persistent ChromaDB collection. Run once, or whenever the resume changes.
