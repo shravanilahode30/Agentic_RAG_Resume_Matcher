@@ -2,6 +2,10 @@
 
 A command-line agent that scores how well a resume matches a job description — and can explain its reasoning through natural follow-up conversation — by combining Retrieval-Augmented Generation (RAG) with tool-calling agent behavior.
 
+# Architecture
+
+![Architecture diagram](Architecture.png)
+
 ## What makes this "agentic," not just a RAG pipeline
 
 A simple RAG script would always do the same fixed sequence: embed query → retrieve → generate. That's not an agent — it's a pipeline with no decisions to make.
